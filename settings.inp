@@ -1,0 +1,13 @@
+; A membrane builder, support monolayer and bilayer
+; !!!NOTE!!!
+;   1. Any line started with '#' and ';' will be ignored
+;   2. Molecules name comes from the first atom residue name of lipids, make sure
+;      the residue name of lipids is different
+; column 1 : lipids file path (use '/'), supported format by MDAnalysis
+; column 2 : the number of lipids in single layer!
+; column 3 : if reverse lipid direction, 0=no, 1=yes
+
+test/DOPC.pdb       32     0
+test/DPPC.pdb       16     0
+test/POPC.pdb       16     0
+
