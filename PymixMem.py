@@ -25,7 +25,7 @@ class PymixMem:
     def gen_mem(self):
         """ generate a membrane structure
         """
-        inp = self.read_inut()
+        inp = self.read_input()
         ntot = np.sum([inp[k][0] for k in inp.keys()])
         print(f'The number of lipids in monolayer: {ntot}')
         # [0, 0, 0, 0, 1, 1, 1, ... 2, 2, 2, ...]
@@ -157,7 +157,7 @@ class PymixMem:
         fmol.close()
         print(f'\nFinal mix membrane has been saved in "mixmem.gro"')
 
-    def read_inut(self) -> dict:
+    def read_input(self) -> dict:
         """ read input parameters
 
             Returns
