@@ -1,5 +1,8 @@
 **<font size=5><center>基于VMD软件TCL语言石墨烯功能化脚本</center></font>**
 
+# 前言
+既然开放出来，我希望这方面感兴趣或者厉害的大佬能够进一步完善一些（自行Fork并改进），我本来也是感觉有意思该修改的原来的功能
+
 # 安装
 
 直接将`graphene.tcl`和`gui.tcl`两个脚本替换`vmd`安装路径下文件即可，比如替换`D:\VMD\plugins\noarch\tcl\nanotube1.5`文件夹下的原程序即可。
