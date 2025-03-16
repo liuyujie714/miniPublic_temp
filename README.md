@@ -1,4 +1,6 @@
-# Put temporary public shared files
+# 一些小脚本或者程序
+
+* `cgenff_charmm2gmx_py3_nx3.py` 此脚本只支持networkx >= 2.5系列，包括3.x的也可以运行，测试环境Python 3.8和3.10
 
 * `PymixMem.py` 膜构建脚本
 【分子动力学磷脂膜构建工具--PymixMem-哔哩哔哩】 https://b23.tv/VuHZFdq
@@ -16,7 +18,5 @@
   * [VMD](http://www.ks.uiuc.edu/Research/vmd/)可视化软件实际上也是基于网格划分算法，性能也不错，不过未考虑周期性边界，此处未列出
 
 小体系并行对计算速度提升不大，甚至并行开销影响速度。
-
-![Natoms vs Time](./BenchNeighborList.png)
 
 
